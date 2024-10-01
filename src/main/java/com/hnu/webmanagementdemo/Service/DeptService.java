@@ -13,4 +13,10 @@ public interface DeptService {
     void arlter(Dept dept);
 
     Dept selectbyid(Integer id);
+
+
+
+
+
+
 }
