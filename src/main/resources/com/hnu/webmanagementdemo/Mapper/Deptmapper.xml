@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hnu.webmanagementdemo.Mapper.Deptmapper">
+
+    <select id="selectbyid" resultType="com.hnu.webmanagementdemo.Pojo.Dept">
+        select * from dept
+        where id= #{id}
+    </select>
+
+</mapper>
